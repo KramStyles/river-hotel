@@ -2,7 +2,7 @@
 <!--	<!-- Home -->
 
 <?php
-$title = "About Us";
+$title = "About";
 require_once "header.php"?>
 	<!-- About -->
 
@@ -21,16 +21,16 @@ require_once "header.php"?>
 						<div class="about_text">
 							<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nec faucibus velit. Quisque eleifend orci ipsum, a bibendum lacus suscipit sit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nec faucibus velit. Quisque eleifend orci ipsum, a bibendum lacus suscipit sit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nec faucibus velit.</p>
 						</div>
-						<div class="about_sig"><img src="images/sig.png" alt=""></div>
+						<div class="about_sig"><img src="assets/images/sig.png" alt=""></div>
 					</div>
 				</div>
 
 				<!-- About Images -->
 				<div class="col-lg-6">
 					<div class="about_images d-flex flex-row align-items-start justify-content-between flex-wrap">
-						<img src="images/about_1.png" alt="">
-						<img src="images/about_2.png" alt="">
-						<img src="images/about_3.png" alt="">
+						<img src="assets/images/about_1.png" alt="">
+						<img src="assets/images/about_2.png" alt="">
+						<img src="assets/images/about_3.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -45,7 +45,7 @@ require_once "header.php"?>
 				
 				<div class="col-xl-6 order-xl-1 order-2">
 					<div class="split_section_image">
-						<div class="background_image" style="background-image:url(images/milestones.jpg)"></div>
+						<div class="background_image" style="background-image:url(assets/images/milestones.jpg)"></div>
 					</div>
 				</div>
 
@@ -140,7 +140,7 @@ require_once "header.php"?>
 				<!-- Loaders Image -->
 				<div class="col-xl-6">
 					<div class="split_section_image split_section_left_image">
-						<div class="background_image" style="background-image:url(images/loaders.jpg)"></div>
+						<div class="background_image" style="background-image:url(assets/images/loaders.jpg)"></div>
 					</div>
 				</div>
 
@@ -151,7 +151,7 @@ require_once "header.php"?>
 	<!-- Testimonials -->
 
 	<div class="testimonials">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/testimonials.jpg" data-speed="0.8"></div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="assets/images/testimonials.jpg" data-speed="0.8"></div>
 		<div class="testimonials_overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -168,7 +168,7 @@ require_once "header.php"?>
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src="images/user_1.jpg" alt=""></div>
+								<div class="testimonial_image"><img src="assets/images/user_1.jpg" alt=""></div>
 								<div class="testimonial_author"><a href="#">Samantha Smith</a>, Greece</div>
 							</div>
 
@@ -179,7 +179,7 @@ require_once "header.php"?>
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src="images/user_2.jpg" alt=""></div>
+								<div class="testimonial_image"><img src="assets/images/user_2.jpg" alt=""></div>
 								<div class="testimonial_author"><a href="#">Michael Doe</a>, Italy</div>
 							</div>
 
@@ -190,7 +190,7 @@ require_once "header.php"?>
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src="images/user_3.jpg" alt=""></div>
+								<div class="testimonial_image"><img src="assets/images/user_3.jpg" alt=""></div>
 								<div class="testimonial_author"><a href="#">Luis Garcia</a>, Spain</div>
 							</div>
 

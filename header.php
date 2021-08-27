@@ -14,9 +14,19 @@
     <link rel="stylesheet" type="text/css" href="assets/plugins/OwlCarousel2-2.3.4/animate.css">
     <link href="assets/plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
     <link href="assets/plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="assets/styles/main_styles.css">
-    <link rel="stylesheet" type="text/css" href="assets/styles/responsive.css">
+    <?php
+        if ($title == "Home Page"){
+            echo '<link rel="stylesheet" type="text/css" href="assets/styles/main_styles.css">
+                    <link rel="stylesheet" type="text/css" href="assets/styles/responsive.css">';
+        } else {
+            echo "<link rel='stylesheet' type='text/css' href='assets/styles/${title}".".css'>
+<link rel='stylesheet' type='text/css' href='assets/styles/${title}"."_responsive.css'>";
+
+
+        }
+    ?>
 </head>
+
 <body>
 
 <div class="super_container">
