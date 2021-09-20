@@ -1,4 +1,6 @@
-
+<?php
+    require_once "resources/global.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,15 +17,15 @@
     <link href="assets/plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
     <link href="assets/plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
     <?php
-        if ($title == "Home Page"){
-            echo '<link rel="stylesheet" type="text/css" href="assets/styles/main_styles.css">
+    if ($title == "Home Page") {
+        echo '<link rel="stylesheet" type="text/css" href="assets/styles/main_styles.css">
                     <link rel="stylesheet" type="text/css" href="assets/styles/responsive.css">';
-        } else {
-            echo "<link rel='stylesheet' type='text/css' href='assets/styles/${title}".".css'>
-<link rel='stylesheet' type='text/css' href='assets/styles/${title}"."_responsive.css'>";
+    } else {
+        echo "<link rel='stylesheet' type='text/css' href='assets/styles/${title}" . ".css'>
+<link rel='stylesheet' type='text/css' href='assets/styles/${title}" . "_responsive.css'>";
 
 
-        }
+    }
     ?>
 </head>
 
@@ -40,10 +42,10 @@
                 <nav class="main_nav">
                     <ul class="d-flex flex-row align-items-start justify-content-start">
                         <li class="active"><a href="index.php">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
+                        <li><a href="about">About us</a></li>
                         <li><a href="#">Rooms</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="book_button"><a href="booking.html">Book Online</a></div>
@@ -83,8 +85,8 @@
     </div>
 
     <?php
-        if ($title == "Home Page"){
-            echo '<!-- Home -->
+    if ($title == "Home Page") {
+        echo '<!-- Home -->
 
     <div class="home">
         <div class="home_slider_container">
@@ -121,13 +123,13 @@
 
                 <!-- Slide -->
                 <div class="slide">
-                    <div class="background_image" style="background-image:url(assets/images/index_1.jpg)"></div>
+                    <div class="background_image" style="background-image:url(assets/images/blog.jpg)"></div>
                     <div class="home_container">
                         <div class="container">
                             <div class="row">
                                 <div class="col">
                                     <div class="home_content text-center">
-                                        <div class="home_title">A Luxury Stay</div>
+                                        <div class="home_title">Feel at Home!</div>
                                         <div class="booking_form_container">
                                             <form action="#" class="booking_form">
                                                 <div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
@@ -150,13 +152,13 @@
 
                 <!-- Slide -->
                 <div class="slide">
-                    <div class="background_image" style="background-image:url(assets/images/index_1.jpg)"></div>
+                    <div class="background_image" style="background-image:url(assets/images/about.jpg)"></div>
                     <div class="home_container">
                         <div class="container">
                             <div class="row">
                                 <div class="col">
                                     <div class="home_content text-center">
-                                        <div class="home_title">A Luxury Stay</div>
+                                        <div class="home_title">Your Paradise Awaits!</div>
                                         <div class="booking_form_container">
                                             <form action="#" class="booking_form">
                                                 <div class="d-flex flex-xl-row flex-column align-items-start justify-content-start">
@@ -192,8 +194,8 @@
 
         </div>
     </div>';
-        } else{
-            echo '
+    } else {
+        echo '
 	<div class="home">
 		<div class="background_image" style="background-image:url(assets/images/about.jpg)"></div>
 		<div class="home_container">
@@ -221,7 +223,7 @@
 			</div>
 		</div>
 	</div>';
-        }
+    }
     ?>
 
 
