@@ -168,7 +168,7 @@ require_once "header.php"?>
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src="assets/images/user_1.jpg" alt=""></div>
+								<div class="testimonial_image"><img src="assets/images/user_1.png" alt=""></div>
 								<div class="testimonial_author"><a href="#">Samantha Smith</a>, Greece</div>
 							</div>
 
@@ -179,7 +179,7 @@ require_once "header.php"?>
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src="assets/images/user_2.jpg" alt=""></div>
+								<div class="testimonial_image"><img src="assets/images/user_2.png" alt=""></div>
 								<div class="testimonial_author"><a href="#">Michael Doe</a>, Italy</div>
 							</div>
 
@@ -190,7 +190,7 @@ require_once "header.php"?>
 								<div class="testimonial_text">
 									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
 								</div>
-								<div class="testimonial_image"><img src="assets/images/user_3.jpg" alt=""></div>
+								<div class="testimonial_image"><img src="assets/images/user_3.png" alt=""></div>
 								<div class="testimonial_author"><a href="#">Luis Garcia</a>, Spain</div>
 							</div>
 
