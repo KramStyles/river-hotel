@@ -1,6 +1,6 @@
 <?php $title = "Home Page";
 require_once "header.php";
-$features = '';
+$features = $gallery = $testimonial =  '';
 
 foreach ($home_features as $index => $home_feature) {
     $index++;
@@ -16,6 +16,14 @@ foreach ($home_features as $index => $home_feature) {
 				</div>";
 }
 
+for ($i = 0; $i < 4; $i++){
+    $pic = $i + 1;
+    $gallery .= "<!-- Slide -->
+            <div class=\"gallery_item\">
+                <div class=\"background_image\" style=\"background-image:url(assets/images/gallery_$pic.jpg)\"></div>
+                <a class=\"colorbox\" href=\"assets/images/gallery_$pic.jpg\"></a>
+            </div>";
+}
 
 ?>
 <!-- Features -->
@@ -33,31 +41,7 @@ foreach ($home_features as $index => $home_feature) {
 <div class="gallery">
     <div class="gallery_slider_container">
         <div class="owl-carousel owl-theme gallery_slider">
-
-            <!-- Slide -->
-            <div class="gallery_item">
-                <div class="background_image" style="background-image:url(assets/images/gallery_1.jpg)"></div>
-                <a class="colorbox" href="images/gallery_1.jpg"></a>
-            </div>
-
-            <!-- Slide -->
-            <div class="gallery_item">
-                <div class="background_image" style="background-image:url(assets/images/gallery_2.jpg)"></div>
-                <a class="colorbox" href="images/gallery_2.jpg"></a>
-            </div>
-
-            <!-- Slide -->
-            <div class="gallery_item">
-                <div class="background_image" style="background-image:url(assets/images/gallery_3.jpg)"></div>
-                <a class="colorbox" href="images/gallery_3.jpg"></a>
-            </div>
-
-            <!-- Slide -->
-            <div class="gallery_item">
-                <div class="background_image" style="background-image:url(assets/images/gallery_4.jpg)"></div>
-                <a class="colorbox" href="images/gallery_4.jpg"></a>
-            </div>
-
+            <?=$gallery; ?>
         </div>
     </div>
 </div>
@@ -118,7 +102,7 @@ foreach ($home_features as $index => $home_feature) {
                                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus
                                     blandit. Etiam nec odio vestibulum est mattis effic.</p>
                             </div>
-                            <div class="testimonial_image"><img src="assets/images/user_1.jpg" alt=""></div>
+                            <div class="testimonial_image"><img src="assets/images/user_.jpg" alt=""></div>
                             <div class="testimonial_author"><a href="#">Samantha Smith</a>, Greece</div>
                         </div>
 
